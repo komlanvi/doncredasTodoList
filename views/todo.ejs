@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TODO-LIST</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<section class="header jumbotron">
+			<h1 class="text-center">
+				Welcome to doncredas TODO LIST
+			</h1>
+		</section>
+		<section class="content row">
+			<ul class="col-lg-4 col-lg-offset-4">
+			<% todolist.forEach(function(todo, index) { %>
+				<li><a data-toggle="tooltip" data-placement="top" title="cancel" href="/todo/supprimer/<%= index %>">✘</a><strong> <%= todo %></strong></li>
+			<% }); %>
+			</ul>
+			<div class="row">
+				<form class="form col-lg-4 col-lg-offset-4" method="post" action="/todo/ajouter/">
+					<div class="form-group">
+						<label for="newtodo">What must be done?</label>
+						<input type="text" class="form-control" name="newtodo" id="newtodo">
+					</div>
+					<div class="form-group">
+						<input class="btn btn-primary right" type="submit" value="Add a todo" >
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="footer row">
+			
+		</section>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip(); 
+		});
+	</script>
+</body>
+</html>

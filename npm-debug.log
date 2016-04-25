@@ -1,0 +1,393 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json ma-todo-list@0.1.0 No repository field.
+6 warn package.json ma-todo-list@0.1.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/doncredas/workspaces/js/todo',
+8 verbose install   [ 'espress', 'ejs', 'cookie-session', 'body-parser' ] ]
+9 info preinstall ma-todo-list@0.1.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'cookie-session@~1.1.0', null ]
+12 verbose cache add name=undefined spec="cookie-session@~1.1.0" args=["cookie-session@~1.1.0",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'cookie-session@~1.1.0',
+13 verbose parsed url   path: 'cookie-session@~1.1.0',
+13 verbose parsed url   href: 'cookie-session@~1.1.0' }
+14 verbose cache add name="cookie-session" spec="~1.1.0" args=["cookie-session","~1.1.0"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '~1.1.0',
+15 verbose parsed url   path: '~1.1.0',
+15 verbose parsed url   href: '~1.1.0' }
+16 verbose addNamed [ 'cookie-session', '~1.1.0' ]
+17 verbose addNamed [ null, '>=1.1.0-0 <1.2.0-0' ]
+18 silly lockFile bcd8ce55-cookie-session-1-1-0 cookie-session@~1.1.0
+19 verbose lock cookie-session@~1.1.0 /home/doncredas/.npm/bcd8ce55-cookie-session-1-1-0.lock
+20 verbose cache add [ 'body-parser@~1.15.0', null ]
+21 verbose cache add name=undefined spec="body-parser@~1.15.0" args=["body-parser@~1.15.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'body-parser@~1.15.0',
+22 verbose parsed url   path: 'body-parser@~1.15.0',
+22 verbose parsed url   href: 'body-parser@~1.15.0' }
+23 verbose cache add name="body-parser" spec="~1.15.0" args=["body-parser","~1.15.0"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '~1.15.0',
+24 verbose parsed url   path: '~1.15.0',
+24 verbose parsed url   href: '~1.15.0' }
+25 verbose addNamed [ 'body-parser', '~1.15.0' ]
+26 verbose addNamed [ null, '>=1.15.0-0 <1.16.0-0' ]
+27 silly lockFile bcac03a8-body-parser-1-15-0 body-parser@~1.15.0
+28 verbose lock body-parser@~1.15.0 /home/doncredas/.npm/bcac03a8-body-parser-1-15-0.lock
+29 verbose cache add [ 'espress@~4.13.0', null ]
+30 verbose cache add name=undefined spec="espress@~4.13.0" args=["espress@~4.13.0",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'espress@~4.13.0',
+31 verbose parsed url   path: 'espress@~4.13.0',
+31 verbose parsed url   href: 'espress@~4.13.0' }
+32 silly addNameRange { name: 'cookie-session',
+32 silly addNameRange   range: '>=1.1.0-0 <1.2.0-0',
+32 silly addNameRange   hasData: false }
+33 verbose cache add [ 'ejs@~2.4.1', null ]
+34 verbose cache add name=undefined spec="ejs@~2.4.1" args=["ejs@~2.4.1",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'ejs@~2.4.1',
+35 verbose parsed url   path: 'ejs@~2.4.1',
+35 verbose parsed url   href: 'ejs@~2.4.1' }
+36 verbose cache add name="espress" spec="~4.13.0" args=["espress","~4.13.0"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '~4.13.0',
+37 verbose parsed url   path: '~4.13.0',
+37 verbose parsed url   href: '~4.13.0' }
+38 verbose addNamed [ 'espress', '~4.13.0' ]
+39 verbose addNamed [ null, '>=4.13.0-0 <4.14.0-0' ]
+40 silly lockFile b7ed07f7-espress-4-13-0 espress@~4.13.0
+41 verbose lock espress@~4.13.0 /home/doncredas/.npm/b7ed07f7-espress-4-13-0.lock
+42 silly addNameRange { name: 'body-parser',
+42 silly addNameRange   range: '>=1.15.0-0 <1.16.0-0',
+42 silly addNameRange   hasData: false }
+43 verbose cache add name="ejs" spec="~2.4.1" args=["ejs","~2.4.1"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '~2.4.1',
+44 verbose parsed url   path: '~2.4.1',
+44 verbose parsed url   href: '~2.4.1' }
+45 verbose addNamed [ 'ejs', '~2.4.1' ]
+46 verbose addNamed [ null, '>=2.4.1-0 <2.5.0-0' ]
+47 silly lockFile a97ce8d7-ejs-2-4-1 ejs@~2.4.1
+48 verbose lock ejs@~2.4.1 /home/doncredas/.npm/a97ce8d7-ejs-2-4-1.lock
+49 silly addNameRange { name: 'espress',
+49 silly addNameRange   range: '>=4.13.0-0 <4.14.0-0',
+49 silly addNameRange   hasData: false }
+50 silly addNameRange { name: 'ejs', range: '>=2.4.1-0 <2.5.0-0', hasData: false }
+51 verbose request where is /cookie-session
+52 verbose request registry https://registry.npmjs.org/
+53 verbose request id 83f826e85dbf5364
+54 verbose url raw /cookie-session
+55 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-session' ]
+56 verbose url resolved https://registry.npmjs.org/cookie-session
+57 verbose request where is https://registry.npmjs.org/cookie-session
+58 info trying registry request attempt 1 at 00:52:46
+59 verbose etag "61VL2SDH9R81VNJ7MDEXC67A9"
+60 http GET https://registry.npmjs.org/cookie-session
+61 verbose request where is /body-parser
+62 verbose request registry https://registry.npmjs.org/
+63 verbose url raw /body-parser
+64 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+65 verbose url resolved https://registry.npmjs.org/body-parser
+66 verbose request where is https://registry.npmjs.org/body-parser
+67 info trying registry request attempt 1 at 00:52:46
+68 verbose etag "CKT2RJ5F04S2SDZESP3RMG1K1"
+69 http GET https://registry.npmjs.org/body-parser
+70 verbose request where is /espress
+71 verbose request registry https://registry.npmjs.org/
+72 verbose url raw /espress
+73 verbose url resolving [ 'https://registry.npmjs.org/', './espress' ]
+74 verbose url resolved https://registry.npmjs.org/espress
+75 verbose request where is https://registry.npmjs.org/espress
+76 info trying registry request attempt 1 at 00:52:46
+77 verbose etag "DI1HLYZ73GE3VZCVUUMUK5CGT"
+78 http GET https://registry.npmjs.org/espress
+79 verbose request where is /ejs
+80 verbose request registry https://registry.npmjs.org/
+81 verbose url raw /ejs
+82 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+83 verbose url resolved https://registry.npmjs.org/ejs
+84 verbose request where is https://registry.npmjs.org/ejs
+85 info trying registry request attempt 1 at 00:52:46
+86 verbose etag "IU1FN2KH1B28R3KS878ZYZMC"
+87 http GET https://registry.npmjs.org/ejs
+88 http 304 https://registry.npmjs.org/cookie-session
+89 silly registry.get cb [ 304,
+89 silly registry.get   { date: 'Fri, 22 Apr 2016 22:52:46 GMT',
+89 silly registry.get     via: '1.1 varnish',
+89 silly registry.get     'cache-control': 'max-age=300',
+89 silly registry.get     etag: '"61VL2SDH9R81VNJ7MDEXC67A9"',
+89 silly registry.get     age: '193',
+89 silly registry.get     connection: 'keep-alive',
+89 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+89 silly registry.get     'x-cache': 'HIT',
+89 silly registry.get     'x-cache-hits': '1',
+89 silly registry.get     'x-timer': 'S1461365566.310140,VS0,VE0',
+89 silly registry.get     vary: 'Accept-Encoding' } ]
+90 verbose etag https://registry.npmjs.org/cookie-session from cache
+91 silly addNameRange number 2 { name: 'cookie-session',
+91 silly addNameRange   range: '>=1.1.0-0 <1.2.0-0',
+91 silly addNameRange   hasData: true }
+92 silly addNameRange versions [ 'cookie-session',
+92 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.1.0', '1.2.0', '2.0.0-alpha.1' ] ]
+93 verbose addNamed [ 'cookie-session', '1.1.0' ]
+94 verbose addNamed [ '1.1.0', '1.1.0' ]
+95 silly lockFile fc99895f-cookie-session-1-1-0 cookie-session@1.1.0
+96 verbose lock cookie-session@1.1.0 /home/doncredas/.npm/fc99895f-cookie-session-1-1-0.lock
+97 silly lockFile fc99895f-cookie-session-1-1-0 cookie-session@1.1.0
+98 silly lockFile fc99895f-cookie-session-1-1-0 cookie-session@1.1.0
+99 silly lockFile bcd8ce55-cookie-session-1-1-0 cookie-session@~1.1.0
+100 silly lockFile bcd8ce55-cookie-session-1-1-0 cookie-session@~1.1.0
+101 http 304 https://registry.npmjs.org/body-parser
+102 silly registry.get cb [ 304,
+102 silly registry.get   { date: 'Fri, 22 Apr 2016 22:52:46 GMT',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     'cache-control': 'max-age=300',
+102 silly registry.get     etag: '"CKT2RJ5F04S2SDZESP3RMG1K1"',
+102 silly registry.get     age: '116',
+102 silly registry.get     connection: 'keep-alive',
+102 silly registry.get     'x-served-by': 'cache-fra1244-FRA',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '3',
+102 silly registry.get     'x-timer': 'S1461365566.320504,VS0,VE0',
+102 silly registry.get     vary: 'Accept-Encoding' } ]
+103 verbose etag https://registry.npmjs.org/body-parser from cache
+104 http 304 https://registry.npmjs.org/espress
+105 silly registry.get cb [ 304,
+105 silly registry.get   { date: 'Fri, 22 Apr 2016 22:52:46 GMT',
+105 silly registry.get     via: '1.1 varnish',
+105 silly registry.get     'cache-control': 'max-age=300',
+105 silly registry.get     etag: '"DI1HLYZ73GE3VZCVUUMUK5CGT"',
+105 silly registry.get     age: '166',
+105 silly registry.get     connection: 'keep-alive',
+105 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+105 silly registry.get     'x-cache': 'HIT',
+105 silly registry.get     'x-cache-hits': '1',
+105 silly registry.get     'x-timer': 'S1461365566.321987,VS0,VE0',
+105 silly registry.get     vary: 'Accept-Encoding' } ]
+106 verbose etag https://registry.npmjs.org/espress from cache
+107 http 304 https://registry.npmjs.org/ejs
+108 silly registry.get cb [ 304,
+108 silly registry.get   { date: 'Fri, 22 Apr 2016 22:52:46 GMT',
+108 silly registry.get     via: '1.1 varnish',
+108 silly registry.get     'cache-control': 'max-age=300',
+108 silly registry.get     etag: '"IU1FN2KH1B28R3KS878ZYZMC"',
+108 silly registry.get     age: '295',
+108 silly registry.get     connection: 'keep-alive',
+108 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+108 silly registry.get     'x-cache': 'HIT',
+108 silly registry.get     'x-cache-hits': '3',
+108 silly registry.get     'x-timer': 'S1461365566.323371,VS0,VE0',
+108 silly registry.get     vary: 'Accept-Encoding' } ]
+109 verbose etag https://registry.npmjs.org/ejs from cache
+110 silly addNameRange number 2 { name: 'body-parser',
+110 silly addNameRange   range: '>=1.15.0-0 <1.16.0-0',
+110 silly addNameRange   hasData: true }
+111 silly addNameRange versions [ 'body-parser',
+111 silly addNameRange   [ '1.0.0',
+111 silly addNameRange     '1.0.1',
+111 silly addNameRange     '1.0.2',
+111 silly addNameRange     '1.1.0',
+111 silly addNameRange     '1.1.1',
+111 silly addNameRange     '1.1.2',
+111 silly addNameRange     '1.2.0',
+111 silly addNameRange     '1.2.1',
+111 silly addNameRange     '1.2.2',
+111 silly addNameRange     '1.3.0',
+111 silly addNameRange     '1.3.1',
+111 silly addNameRange     '1.4.0',
+111 silly addNameRange     '1.4.1',
+111 silly addNameRange     '1.4.2',
+111 silly addNameRange     '1.4.3',
+111 silly addNameRange     '1.5.0',
+111 silly addNameRange     '1.5.1',
+111 silly addNameRange     '1.5.2',
+111 silly addNameRange     '1.6.0',
+111 silly addNameRange     '1.6.1',
+111 silly addNameRange     '1.6.2',
+111 silly addNameRange     '1.6.3',
+111 silly addNameRange     '1.6.4',
+111 silly addNameRange     '1.6.5',
+111 silly addNameRange     '1.6.6',
+111 silly addNameRange     '1.6.7',
+111 silly addNameRange     '1.7.0',
+111 silly addNameRange     '1.8.0',
+111 silly addNameRange     '1.8.1',
+111 silly addNameRange     '1.8.2',
+111 silly addNameRange     '1.8.3',
+111 silly addNameRange     '1.8.4',
+111 silly addNameRange     '1.9.0',
+111 silly addNameRange     '1.9.1',
+111 silly addNameRange     '1.9.2',
+111 silly addNameRange     '1.9.3',
+111 silly addNameRange     '1.10.0',
+111 silly addNameRange     '1.10.1',
+111 silly addNameRange     '1.10.2',
+111 silly addNameRange     '1.11.0',
+111 silly addNameRange     '1.12.0',
+111 silly addNameRange     '1.12.1',
+111 silly addNameRange     '1.12.2',
+111 silly addNameRange     '1.12.3',
+111 silly addNameRange     '1.12.4',
+111 silly addNameRange     '1.13.0',
+111 silly addNameRange     '1.13.1',
+111 silly addNameRange     '1.13.2',
+111 silly addNameRange     '1.13.3',
+111 silly addNameRange     '1.14.0',
+111 silly addNameRange     '1.14.1',
+111 silly addNameRange     '1.14.2',
+111 silly addNameRange     '1.15.0' ] ]
+112 verbose addNamed [ 'body-parser', '1.15.0' ]
+113 verbose addNamed [ '1.15.0', '1.15.0' ]
+114 silly lockFile 0f65416a-body-parser-1-15-0 body-parser@1.15.0
+115 verbose lock body-parser@1.15.0 /home/doncredas/.npm/0f65416a-body-parser-1-15-0.lock
+116 silly addNameRange number 2 { name: 'espress', range: '>=4.13.0-0 <4.14.0-0', hasData: true }
+117 silly addNameRange versions [ 'espress', [ '0.0.0' ] ]
+118 silly lockFile b7ed07f7-espress-4-13-0 espress@~4.13.0
+119 silly lockFile b7ed07f7-espress-4-13-0 espress@~4.13.0
+120 silly addNameRange number 2 { name: 'ejs', range: '>=2.4.1-0 <2.5.0-0', hasData: true }
+121 silly addNameRange versions [ 'ejs',
+121 silly addNameRange   [ '0.0.1',
+121 silly addNameRange     '0.0.2',
+121 silly addNameRange     '0.0.3',
+121 silly addNameRange     '0.0.4',
+121 silly addNameRange     '0.1.0',
+121 silly addNameRange     '0.2.0',
+121 silly addNameRange     '0.2.1',
+121 silly addNameRange     '0.3.0',
+121 silly addNameRange     '0.3.1',
+121 silly addNameRange     '0.4.0',
+121 silly addNameRange     '0.4.1',
+121 silly addNameRange     '0.4.2',
+121 silly addNameRange     '0.4.3',
+121 silly addNameRange     '0.5.0',
+121 silly addNameRange     '0.6.0',
+121 silly addNameRange     '0.6.1',
+121 silly addNameRange     '0.7.0',
+121 silly addNameRange     '0.7.1',
+121 silly addNameRange     '0.7.2',
+121 silly addNameRange     '0.8.0',
+121 silly addNameRange     '0.8.1',
+121 silly addNameRange     '0.8.2',
+121 silly addNameRange     '0.8.3',
+121 silly addNameRange     '0.8.4',
+121 silly addNameRange     '0.8.5',
+121 silly addNameRange     '0.8.6',
+121 silly addNameRange     '0.8.8',
+121 silly addNameRange     '1.0.0',
+121 silly addNameRange     '2.0.2',
+121 silly addNameRange     '2.0.3',
+121 silly addNameRange     '2.0.4',
+121 silly addNameRange     '2.0.5',
+121 silly addNameRange     '2.0.6',
+121 silly addNameRange     '2.0.7',
+121 silly addNameRange     '2.0.8',
+121 silly addNameRange     '2.1.1',
+121 silly addNameRange     '2.1.2',
+121 silly addNameRange     '2.1.3',
+121 silly addNameRange     '2.1.4',
+121 silly addNameRange     '2.2.1',
+121 silly addNameRange     '2.2.2',
+121 silly addNameRange     '2.2.3',
+121 silly addNameRange     '2.2.4',
+121 silly addNameRange     '2.3.1',
+121 silly addNameRange     '2.3.2',
+121 silly addNameRange     '2.3.3',
+121 silly addNameRange     '2.3.4',
+121 silly addNameRange     '2.4.1' ] ]
+122 verbose addNamed [ 'ejs', '2.4.1' ]
+123 verbose addNamed [ '2.4.1', '2.4.1' ]
+124 silly lockFile c6838b74-ejs-2-4-1 ejs@2.4.1
+125 verbose lock ejs@2.4.1 /home/doncredas/.npm/c6838b74-ejs-2-4-1.lock
+126 silly lockFile 0f65416a-body-parser-1-15-0 body-parser@1.15.0
+127 silly lockFile 0f65416a-body-parser-1-15-0 body-parser@1.15.0
+128 silly lockFile bcac03a8-body-parser-1-15-0 body-parser@~1.15.0
+129 silly lockFile bcac03a8-body-parser-1-15-0 body-parser@~1.15.0
+130 silly lockFile c6838b74-ejs-2-4-1 ejs@2.4.1
+131 silly lockFile c6838b74-ejs-2-4-1 ejs@2.4.1
+132 silly lockFile a97ce8d7-ejs-2-4-1 ejs@~2.4.1
+133 silly lockFile a97ce8d7-ejs-2-4-1 ejs@~2.4.1
+134 error notarget No compatible version found: espress@'>=4.13.0-0 <4.14.0-0'
+134 error notarget Valid install targets:
+134 error notarget ["0.0.0"]
+134 error notarget
+134 error notarget This is most likely not a problem with npm itself.
+134 error notarget In most cases you or one of your dependencies are requesting
+134 error notarget a package version that doesn't exist.
+135 error System Linux 3.19.0-59-generic
+136 error command "/usr/bin/node" "/usr/bin/npm" "install"
+137 error cwd /home/doncredas/workspaces/js/todo
+138 error node -v v0.10.37
+139 error npm -v 1.4.28
+140 error code ETARGET
+141 verbose exit [ 1, true ]

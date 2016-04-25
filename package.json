@@ -1,0 +1,13 @@
+{
+	"name" : "ma-todo-list",
+	"version" : "0.1.0",
+	"dependencies" : {
+	},
+	"author" : [
+	{
+		"name" : "doncredas",
+		"email" : "doncredas@gmail.com"
+	}
+	],
+	"description" : "Une simple TODO liste"
+}
